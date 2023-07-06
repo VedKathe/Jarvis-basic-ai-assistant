@@ -1,0 +1,63 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hi","how are you","is anyone there?","hello","good day","whats up","hey","yo","hi jarvis","hello jarvis","hey jarvis","yo jarvis"],
+            "responses":["Hello","Good to see you again","Hi there, how can I help?","Hello, how can I help?","Hello Vedant"]
+        },
+        {
+            "tag":"breakup",
+            "patterns":["bye","see you later","goodbye","nice chatting to you, bye","till next time","bye jarvis","sleep"],
+            "responses":["Bye","See you later","Have a nice day","Bye! Come back again soon.","It was nice talking to you, see you later","Bye Vedant"]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how are you doing","how you doing","how are you feeling","how you feeling","how are you feeling today","how you feeling today"],
+            "responses":["I am fine","I am good","I am doing great","I am feeling good","I am feeling great","I am feeling awesome","I am feeling amazing","I am feeling fantastic",
+            "I am feeling wonderful","I am feeling superb","I am feeling excellent"]
+        },
+        {
+            "tag":"indentity",
+            "patterns":["who are you","what is your name","what should I call you","whats your name","what should I call you","whats your name"],
+            "responses":["Jarvis","I am Jarvis","My name is Jarvis","You can call me Jarvis",
+            "I am Jarvis, your virtual assistant","An A.I. assistant named Jarvis"]
+        },
+        {
+            "tag":"time",
+            "patterns":["what time is it","what is the time","time","time please","what is the time now","whats the time now","whats the time","whats the time now jarvis","whats the time jarvis"],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["what date is it","what is the date","date","date please","what is the date today","whats the date today","whats the date","whats the date today jarvis","whats the date jarvis"],
+            "responses":["date"]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":["take a screenshot","take screenshot","screenshot","screenshot please","can you take a screenshot","ss","take ss"],
+            "responses":["screenshot"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","what is","who was","what was","who were","what were","tell me about","who are","what are","about","wikipedia"],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns":["google","search","search for","search on google","search on google for","google for","google search","google search for"],
+            "responses":["google"]
+        },
+        {
+            "tag":"website",
+            "patterns":["open","web","open web","open website","website"],
+            "responses":["website"]
+        },
+        {
+            "tag":"application",
+            "patterns":["start","launch","run","app"],
+            "responses":["application"]
+        }
+        
+
+    ]
+}
